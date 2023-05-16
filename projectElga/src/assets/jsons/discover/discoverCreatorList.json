@@ -1,0 +1,29 @@
+[
+  {
+    "mainCategory": "Music",
+    "subCategories": [
+      "Singer","Music Producer","DJ","Composer","Audio Engineer","Song Writer","Music Arranger","Back Ground Music Composer","Instrumentalists","Beat Boxing"],
+      "imageLink":"https://images.unsplash.com/photo-1517230878791-4d28214057c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2luZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+  },
+  {
+    "mainCategory": "Art",
+    "subCategories": ["Illustrator","Mural","3D Artists","Craft","Sculptors","Tattoo"],
+    "imageLink":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWfOCa4yiJNO9rQkzXu4IMGSoyFqWqfChpAA&usqp=CAU"
+  },
+  {
+    "mainCategory": "Content",
+    "subCategories": ["Photographer","Film Director","Actors","Cinematographer","Video Editor","Screenwriter","Art Director","Make Up Artist","Animator","Costume Design","Model","Photo editors","Visual Effects","Copy writter"],
+  "imageLink":"https://wallpaperaccess.com/full/530366.jpg"
+  },
+  {
+    "mainCategory": "Performance Artist",
+    "subCategories": ["Dancer","Stand up Comedy","Singer","Magicians","Actors","Screenwriter","Art Director","Make Up Artist","Animator","Costume Design","Model","Photo editors","Visual Effects","Copy writter"],
+    "imageLink":"https://c4.wallpaperflare.com/wallpaper/734/525/171/sea-gulls-sunset-dancing-of-the-girl-hd-wallpaper-wallpaper-preview.jpg"
+  },
+  {
+    "mainCategory": "Design",
+    "subCategories": ["Graphic designer","UI/UX","Architecture","Motion Graphic","Interior Desiner","Fashion Design","Game Design","Calligrapher"],
+    "imageLink":"https://media.istockphoto.com/photos/graphic-designer-object-tool-and-color-swatch-samples-at-workspace-picture-id1091389048?b=1&k=20&m=1091389048&s=170667a&w=0&h=GonvgG_Eq6pMKZ9yZ-hDhfvmrVxqPUjrN-Kqz8DFmkA="
+  }
+]
+

@@ -1,0 +1,59 @@
+[
+    {
+      "mainCategory": "Platforms",
+      "isAdmin":false,
+      "subCategories": [
+        "Singer","Music Producer","DJ","Composer","Audio Engineer","Song Writer","Music Arranger","Back Ground Music Composer","Instrumentalists","Beat Boxing"],
+        "imageLink":"https://images.unsplash.com/photo-1540655037529-dec987208707?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1842&q=80"
+    },
+    {
+      "mainCategory": "Content Creators",
+      "isAdmin":false,
+
+      "subCategories": ["Illustrator","Mural","3D Artists","Craft","Sculptors","Tattoo"],
+      "imageLink":"https://images.unsplash.com/photo-1603126004251-d01882b9bfd3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+    },
+    {
+      "mainCategory": "Creatives",
+      "isAdmin":false,
+
+      "subCategories": ["Photographer","Film Director","Actor","Cinematographer","Video Editor","Screenwriter","Art Director","Make Up Artist","Animator","Costume Design","Model","Photo editors","Visual Effects","Copy writter"],
+    "imageLink":"https://images.unsplash.com/photo-1635098996168-c1b455ce7b60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+    },
+    {
+      "mainCategory": "Artists",
+      "isAdmin":false,
+
+      "subCategories": ["Dancer","Stand up Comedy","Singer","Magicians","Actors","Screenwriter","Art Director","Make Up Artist","Animator","Costume Design","Model","Photo editors","Visual Effects","Copy writter"],
+      "imageLink":"https://images.unsplash.com/photo-1503095396549-807759245b35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+    },
+    {
+      "mainCategory": "Brands",
+      "isAdmin":false,
+      "subCategories": ["Graphic designer","UI/UX","Architecture","Motion Graphic","Interior Desiner","Fashion Design","Game Design","Calligrapher"],
+      "imageLink":"https://images.unsplash.com/photo-1633533446213-a438ff5f0629?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=414&q=80"
+    },
+    {
+        "mainCategory": "Agencies",
+        "subCategories": ["Talent Manager","Promoter","Tour Manager","Tour Promoter","Production Engineer"],
+        "imageLink":"https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "isAdmin":true
+  
+      },
+      {
+        "mainCategory": "Service providers",
+        "subCategories": ["Talent Manager","Promoter","Tour Manager","Tour Promoter","Production Engineer"],
+        "imageLink":"https://images.unsplash.com/photo-1551710029-607e06bd45ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+        "isAdmin":true
+  
+      },
+      {
+        "mainCategory": "Visitors",
+        "subCategories": ["Talent Manager","Promoter","Tour Manager","Tour Promoter","Production Engineer"],
+        "imageLink":"https://images.unsplash.com/photo-1616416459692-3203807b1eac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "isAdmin":true
+  
+      }
+  ]
+  
+  

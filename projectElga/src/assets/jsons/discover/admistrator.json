@@ -1,0 +1,9 @@
+[
+    {
+      "mainCategory": "Administrators",
+      "subCategories": ["Talent Manager","Promoter","Tour Manager","Tour Promoter","Production Engineer"],
+      "imageLink":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIfDlxu7Ci86qrfv-t7ThGdwuTivPnOLYjQA&usqp=CAU",
+      "isAdmin":true
+
+    }
+]

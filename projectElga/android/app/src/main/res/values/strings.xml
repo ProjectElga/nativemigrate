@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">Shaer</string>
+  <string name="expo_splash_screen_resize_mode" translatable="false">cover</string>
+  <string name="expo_splash_screen_status_bar_translucent" translatable="false">false</string>
+  <string name="facebook_app_id">380149733687160</string>
+  <string name="facebook_client_token">0cf151a16b05e590de55ff4a8b1451e2</string>
+  <string name="fb_login_protocol_scheme">fb380149733687160</string>
+</resources>

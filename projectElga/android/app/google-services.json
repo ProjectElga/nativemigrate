@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "529591963729",
+    "firebase_url": "https://elga-roma-717ed-default-rtdb.firebaseio.com",
+    "project_id": "elga-roma-717ed",
+    "storage_bucket": "elga-roma-717ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529591963729:android:9185e39cd2884f0731e870",
+        "android_client_info": {
+          "package_name": "elgaroma.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529591963729-5u3n1sh48nknsf0m74idmd91slrot10h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "elgaroma.com",
+            "certificate_hash": "14e786fbdabf51c886190954359b2e45e36107e4"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmYsNbd0lOcwA7xeqNaDOByikqOQCHMhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529591963729-8dbgthc800g8mrr5fdul8uqjavgrf9ad.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "529591963729-9ffgtl1m6n1m2a35jq9mjt34raulqf1t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "elgaroma.com"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

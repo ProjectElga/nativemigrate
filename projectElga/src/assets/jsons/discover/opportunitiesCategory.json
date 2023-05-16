@@ -1,0 +1,38 @@
+[
+    {
+      "mainCategory": "Brand Campaigns",
+      "isAdmin":false,
+      "subCategories": [
+        "Singer","Music Producer","DJ","Composer","Audio Engineer","Song Writer","Music Arranger","Back Ground Music Composer","Instrumentalists","Beat Boxing"],
+        "imageLink":"https://images.unsplash.com/photo-1615397349754-cfa2066a298e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+    },
+    {
+      "mainCategory": "Full Time",
+      "isAdmin":false,
+      "subCategories": ["Dancer","Stand up Comedy","Singer","Magicians","Actors","Screenwriter","Art Director","Make Up Artist","Animator","Costume Design","Model","Photo editors","Visual Effects","Copy writter"],
+      "imageLink":"https://images.unsplash.com/photo-1557425493-6f90ae4659fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+      "mainCategory": "Freelance",
+      "isAdmin":false,
+
+      "subCategories": ["Illustrator","Mural","3D Artists","Craft","Sculptors","Tattoo"],
+      "imageLink":"https://images.unsplash.com/photo-1613980790147-f4f449df0dd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+    },
+    {
+      "mainCategory": "Auditions",
+      "isAdmin":false,
+
+      "subCategories": ["Photographer","Film Director","Actor","Cinematographer","Video Editor","Screenwriter","Art Director","Make Up Artist","Animator","Costume Design","Model","Photo editors","Visual Effects","Copy writter"],
+    "imageLink":"https://images.unsplash.com/photo-1598387992619-f86d5293bace?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80"
+    },
+    {
+      "mainCategory": "Networking",
+      "isAdmin":false,
+
+      "subCategories": ["Dancer","Stand up Comedy","Singer","Magicians","Actors","Screenwriter","Art Director","Make Up Artist","Animator","Costume Design","Model","Photo editors","Visual Effects","Copy writter"],
+      "imageLink":"https://images.unsplash.com/photo-1558522195-e1201b090344?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    }
+  ]
+  
+  

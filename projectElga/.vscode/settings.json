@@ -1,0 +1,6 @@
+{
+    "react-native.packager.port": 19000,
+    "search.exclude": {
+        "**/node_modules": false
+    }
+}

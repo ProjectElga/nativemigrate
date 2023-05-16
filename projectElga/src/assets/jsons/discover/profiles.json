@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Taba Chake",
+    "categories": "Singer, Musician",
+    "distance":"Within 2 kms",
+    "image":"https://i.scdn.co/image/ab6761610000e5ebb9bb04e1c2109767f578f85a"
+  },
+  {
+    "name": "Mukul Negi",
+    "categories": "Designer, Artist",
+    "distance":"Within 5 kms",
+    "image":"https://yt3.ggpht.com/ytc/AKedOLTr9XSNjfMr-U3NTfJzzprx7e632tcZ1rHyaHY9mQI=s900-c-k-c0x00ffffff-no-rj"
+
+  },
+  {
+    "name": "Nischay Parekh",
+    "categories": "Singer",
+    "distance":"Within 10 kms",
+    "image":"https://www.festivalsherpa.com/wp-content/uploads/2016/10/13517439_552398854932354_649744136524193817_o.jpg"
+
+  },
+  {
+    "name": "Prateek Kuhad",
+    "categories": "Singer, Musician ",
+    "distance":"Within 15 kms",
+    "image":"https://images.moneycontrol.com/static-mcnews/2021/08/Prateek-Kuhad-Photo-Prashin-Jagger-770x433.jpg?impolicy=website&width=770&height=431"
+
+  },
+  // {
+  //   "name": "Jasleen Royal",
+  //   "categories": "Singer",
+  //   "distance":"Within 6 kms",
+  //   "image":"https://images.unsplash.com/photo-1534205643743-6737932c79ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+
+  // },
+  // {
+  //   "name": "Sanjeeta Battacharya",
+  //   "categories": "Singer",
+  //   "distance":"Within 9.5 kms",
+  //   "image":"https://images.unsplash.com/photo-1519713880332-91cfe19a59dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGFydGlzaXQlMjBwZXJzb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+
+  // },
+  // {
+  //   "name": "Vishal Garg",
+  //   "categories": "Singer, Musician",
+  //   "distance":"Within 13.5 kms",
+  //   "image":"https://images.unsplash.com/photo-1523387282479-ae7166314e62?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+
+  // },
+  // {
+  //   "name": "Sunidhi",
+  //   "categories": "Designer, Artist",
+  //   "distance":"Within 15 kms",
+  //   "image":"https://images.unsplash.com/photo-1509204417148-31311b983045?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+
+  // },
+  // {
+  //   "name": "Ana D’souza",
+  //   "categories": "Musician",
+  //   "distance":"Within 20 kms",
+  //   "image":"https://images.unsplash.com/photo-1520572409803-b4c8187f0f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+
+  // }
+]

@@ -1,0 +1,118 @@
+{
+  "expo": {
+    "name": "Shaer",
+    "slug": "Elgaroma",
+    "version": "1.0.9",
+    "orientation": "portrait",
+    "icon": "./assets/shaer.png",
+    "splash": {
+      "image": "./assets/newSplashScreen.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#FFFFFF"
+    },
+    "notification": {
+      "icon": "./assets/shaer_notification.png"
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "elgaroma",
+            "project": "elgaroma",
+            "authToken": "ff2b86400a074c0aa9058fb7634e063a51ffb74054784f82861ea7c62f84f562"
+          }
+        }
+      ]
+    },
+    "plugins": [
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "380149733687160",
+          "clientToken": "0cf151a16b05e590de55ff4a8b1451e2",
+          "displayName": "Elgaroma"
+        }
+      ],
+      "sentry-expo"
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "elgaroma.com",
+      "infoPlist": {
+        "SKAdNetworkItems": [
+          {
+            "SKAdNetworkIdentifier": "v9wttpbfk9.skadnetwork"
+          },
+          {
+            "SKAdNetworkIdentifier": "n38lu8286q.skadnetwork"
+          }
+        ]
+      }
+    },
+    "android": {
+      "blockedPermissions": [
+        "ACCESS_BACKGROUND_LOCATION"
+      ],
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_MEDIA_LOCATION",
+        "CAMERA",
+        "FOREGROUND_SERVICE",
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_EXTERNAL_STORAGE",
+        "RECORD_AUDIO",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "versionCode": 10,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/shaer.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "elgaroma.com",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ],
+          "data": {
+            "scheme": "com.googleusercontent.apps.529591963729-5u3n1sh48nknsf0m74idmd91slrot10h",
+            "path": "/oauth2redirect"
+          }
+        }
+      ],
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyDr9JNBft73VHJ_r4662VW1nYfWTB4wj0E",
+          "authDomain": "elga-roma-717ed.firebaseapp.com",
+          "projectId": "elga-roma-717ed",
+          "storageBucket": "elga-roma-717ed.appspot.com",
+          "messagingSenderId": "529591963729",
+          "appId": "1:529591963729:web:82f37b90e5da303631e870",
+          "measurementId": "G-6TNR5H94F1"
+        }
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3052bba0-d284-4b3b-a848-b8c45fd051cd"
+      }
+    }
+  }
+}

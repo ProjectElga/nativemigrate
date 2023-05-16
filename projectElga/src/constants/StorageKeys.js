@@ -1,0 +1,13 @@
+const STORAGE_KEY = {
+  REFRESH_TOKEN: "refreshToken",
+  ACCESS_TOKEN:
+    "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxYzlmYmFiYS03MGIyLTRlNWEtOWI3Yi1mN2YzMzUzM2ZmZDciLCJpc3MiOiJodHRwOi8vMzUuMTU0LjE5OC4zMTo4MDgwL2VsZ2Etcm9tYS91c2VyL3NpZ25JbiIsImV4cCI6MTY2NjI2NDI5Nn0.IVohND52_2fRONZYkkZkvIdfu6doH2YMhPnLBWANdAA",
+  USER_ID: "1c9fbaba-70b2-4e5a-9b7b-f7f33533ffd7",
+  USERNAME: "username",
+  USER_LOCATION: "userLocation",
+  IS_NEW_USER: "isNewUser",
+  USER_DISPLAY_NAME: "displayName",
+  ISCREATOR: "isCreator",
+};
+
+export default STORAGE_KEY;

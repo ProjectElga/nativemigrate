@@ -1,0 +1,300 @@
+import { Dimensions, StyleSheet } from "react-native";
+import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
+import SCREENSIZE from "../../../constants/ScreenSize";
+import COLORS from "../../../themes/colors";
+
+const styles = StyleSheet.create({
+  wrapper: {
+    backgroundColor: COLORS.monoWhite900,
+    height: "100%",
+    paddingBottom: RFValue(0, 844),
+  },
+  headerContainer: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "flex-start",
+    width: "100%",
+    paddingBottom: RFValue(12, 844),
+    marginRight: RFValue(24, 844),
+    paddingLeft: RFValue(24, 844),
+
+  },
+  plusBtn: { height: RFPercentage(4), width: RFPercentage(4) },
+  msgInput: {
+    width: "78%",
+    borderColor: "transparent",
+    backgroundColor: COLORS.monoGhost500,
+
+    paddingTop: RFValue(6, 844),
+    paddingBottom: RFValue(8, 844),
+    paddingHorizontal: RFValue(16, 844),
+    color: "grey",
+    minHeight: RFValue(50, 844),
+    maxHeight: RFValue(100, 844),
+    borderRadius: 30,
+    marginHorizontal: 8,
+    fontSize: RFValue(16, 844),
+    textAlignVertical: "center",
+    alignContent: "center",
+  },
+  bottomotherSubView: {
+    flexDirection: "row",
+
+    //borderColor: COLORS.monoWhite900,
+    alignItems: "center",
+    width: "100%",
+    backgroundColor: COLORS.monoWhite900,
+    paddingLeft: RFValue(8, 844),
+  },
+  sendBtn: {
+    alignItems: "flex-end",
+    width: "15%",
+    marginTop: RFValue(12, 844),
+  },
+  sendBtnImg: {
+    height: RFPercentage(6),
+    width: RFPercentage(6),
+    marginBottom: RFValue(8, 844),
+    borderRadius:RFPercentage(3),
+    backgroundColor:COLORS.monoBlack900,
+    alignItems:"center",
+    justifyContent:"center"
+  },
+  citationWrapper: {
+    width: "100%",
+    borderTopColor: COLORS.monoBlack500,
+    borderRadius: RFValue(16, 844),
+    borderTopWidth: 1.5,
+    marginTop: RFValue(12, 844),
+    borderTopColor: COLORS.monoGhost500,
+    backgroundColor: COLORS.monoWhite900,
+    // paddingHorizontal: RFValue(24, 844),
+    paddingBottom: RFValue(40, 844),
+    // alignItems: "center",
+    marginBottom: RFValue(24, 844),
+  },
+  skeletonCitationWrapper: {
+    flexDirection: "row",
+    width: "100%",
+    marginTop: RFValue(16, 844),
+  },
+  skeletonCitationImage: {
+    width: RFValue(60, 844),
+    height: RFValue(60, 844),
+    position: "relative",
+    borderRadius: RFValue(30, 844),
+  },
+  skeletonFolioCard: {
+    marginTop: RFValue(16, 844),
+    borderRadius: RFValue(16, 844),
+    width: "48%",
+    marginLeft: 0,
+    height: RFValue(208, 844),
+  },
+  skeletonInstaCard: {
+    width: RFValue(136, 844),
+    height: RFValue(160, 844),
+    borderRadius: RFValue(16, 844),
+    marginLeft: RFValue(16, 844),
+  },
+  skeletonPicCard: {
+    height: RFValue(16, 844),
+    borderRadius: RFValue(12, 844),
+    marginTop: 8,
+  },
+  budgetText: {
+    fontFamily: "Poppins_500Medium",
+    fontSize: RFValue(14, 844),
+    color: COLORS.monoBlack900,
+  },
+  budget: {
+    fontFamily: "Poppins_400Regular",
+    fontSize: RFValue(14, 844),
+    color: COLORS.monoBlack500,
+    lineHeight: RFValue(24, 844),
+  },
+  titleText: {
+    fontFamily: "Poppins_700Bold",
+    fontSize: RFValue(24, 844),
+    color: COLORS.monoBlack900,
+  },
+  dateCategoryContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    // marginTop: 8
+  },
+  buttonContainer: {
+    height: SCREENSIZE.BottomNavBarViewPortForButtons,
+    backgroundColor: COLORS.monoWhite900,
+    alignItems: "center",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    paddingHorizontal: RFValue(24, 844),
+    position: "absolute",
+    bottom: 0,
+    width: "100%",
+  },
+  description: {
+    fontSize: RFValue(14, 844),
+    fontFamily: "Poppins_400Regular",
+    color: COLORS.monoBlack700,
+    lineHeight: RFValue(24, 844),
+  },
+  projectDetailContainer: {
+    marginTop: RFValue(8, 844),
+    width: "100%",
+  },
+  plusButtonContainer: {
+    width: RFValue(24, 844),
+    height: RFValue(24, 844),
+    borderRadius: RFValue(50, 844),
+  },
+  smallImage: {
+    width: RFValue(20, 844),
+    height: RFValue(20, 844),
+    borderRadius: RFValue(32, 844),
+    marginTop:2
+  },
+  profileName: {
+    fontSize: RFValue(14, 844),
+    fontFamily: "Poppins_400Regular",
+    color: COLORS.monoBlack500,
+    marginLeft:8
+  },
+  headerInfoSection: {
+    flexDirection: "row",
+    justifyContent: "flex-start",
+    alignItems: "center",
+  },
+  input: {
+    backgroundColor: COLORS.monoGhost500,
+    borderRadius: RFValue(34, 844),
+    paddingTop: RFValue(16, 844),
+    paddingBottom: RFValue(12, 844),
+    paddingHorizontal: RFValue(16, 844),
+    fontFamily: "Poppins_500Medium",
+    fontSize: RFValue(14, 844),
+    color: COLORS.monoBlack500,
+  },
+  inputContainer: {
+    width: RFValue(300, 844),
+    marginLeft: RFValue(16, 844),
+  },
+  sentButtonContainer: {
+    width: RFValue(40, 844),
+    height: RFValue(40, 844),
+    borderRadius: RFValue(50, 844),
+    backgroundColor: COLORS.primaryTeal500,
+    justifyContent: "center",
+    alignItems: "center",
+    marginLeft: 16,
+  },
+  date: {
+    fontFamily: "Poppins_600SemiBold",
+    fontSize: 10,
+    color: COLORS.monoBlack500,
+    alignSelf: "flex-end",
+  },
+  dateContainer: {
+    flexDirection: "row",
+    width: "100%",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginTop: RFValue(16, 844),
+  },
+  msgText: {
+    fontFamily: "Poppins_600SemiBold",
+    fontSize: RFValue(14, 844),
+    color: COLORS.monoBlack700,
+    lineHeight: RFValue(24, 844),
+    marginTop: 4,
+  },
+  chatFooter: {
+    flexDirection: "row",
+
+    backgroundColor: COLORS.monoWhite900,
+    bottom: 0,
+    width: "100%",
+    justifyContent: "space-between",
+    borderWidth: 2,
+    alignItems: "center",
+    //height: SCREENSIZE.BottomNavBarViewPortForButtons,
+    borderBottomWidth: 0,
+  },
+  category1: {
+    borderRadius: RFValue(12, 844),
+    backgroundColor: COLORS.monoBlack500,
+    height: RFValue(20, 844),
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  category1Text: {
+    color: COLORS.monoWhite900,
+    fontSize: RFValue(10, 844),
+    fontFamily: "Poppins_400Regular",
+    marginHorizontal: RFValue(8, 844),
+    marginTop: 1,
+  },
+  category2: {
+    borderRadius: RFValue(12, 844),
+    backgroundColor: COLORS.monoGhost500,
+    height: RFValue(20, 844),
+    alignItems: "center",
+    justifyContent: "center",
+    marginLeft: 4,
+    borderWidth: 0.5,
+    borderColor: "#EEEEEE",
+  },
+  category2Text: {
+    color: COLORS.monoBlack700,
+    fontSize: RFValue(10, 844),
+    fontFamily: "Poppins_400Regular",
+    marginHorizontal: RFValue(8, 844),
+    marginTop: 1,
+  },
+  fileContainer: {
+    marginHorizontal: RFValue(-16, 844),
+    paddingLeft: RFValue(16, 844),
+  },
+  nameText: {
+    fontFamily: "Poppins_700Bold",
+    fontSize: 12,
+    color: COLORS.monoBlack900,
+    lineHeight: RFValue(18, 844),
+  },
+  fileCard: {
+    backgroundColor: COLORS.monoGhost500,
+    borderRadius: RFValue(16, 844),
+    flexDirection: "row",
+    marginRight: RFValue(16, 844),
+    height: RFValue(72, 844),
+  },
+  fileImage: {
+    width: RFValue(72, 844),
+    height: RFValue(72, 844),
+    borderTopLeftRadius: RFValue(16, 844),
+    borderBottomLeftRadius: RFValue(16, 844),
+  },
+  fileNameText: {
+    fontSize: RFValue(14, 844),
+    fontFamily: "Poppins_500Medium",
+    color: COLORS.monoBlack700,
+  },
+  fileTextContainer: {
+    marginLeft: RFValue(16, 844),
+    paddingVertical: RFValue(12, 844),
+    justifyContent: "space-evenly",
+  },
+  fileSizeText: {
+    fontSize: 8,
+    fontFamily: "Poppins_500Medium",
+    color: COLORS.monoBlack700,
+  },
+  divider: {
+    borderWidth: 1,
+    borderColor: COLORS.monoGhost500,
+    width: "70%",
+  },
+});
+
+export default styles;
